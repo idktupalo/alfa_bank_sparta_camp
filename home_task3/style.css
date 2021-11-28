@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(252, 249, 93);
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-gap: 1vw;
+  text-align: center;
+}
+
+.text {
+  visibility: hidden;
+}
+
+.buttons {
+  visibility: hidden;
+  margin-top: 5px;
+}
+
+button {
+  color: cornsilk;
+  border-radius: 10%;
+  background-color: crimson;
+}
+
+button:hover {
+  background-color: rgb(95, 181, 231);
+}
+
+.elem {
+  padding: 15px;
+  border: 2px solid black;
+  background: coral;
+}
