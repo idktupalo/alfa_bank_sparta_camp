@@ -1,7 +1,7 @@
 # Project setup
 
-# client-app 
+# :client-app 
 > npm run serve
 
-# server-app
+# :server-app
 > npm run start
